@@ -186,3 +186,24 @@ body.light-mode .page-hero .gradient-text {
   background-clip: text;
   color: transparent !important;
 }
+/* --- RESPONSIVE FIX --- */
+img, video, iframe {
+  max-width: 100% !important;
+  height: auto !important;
+}
+* {
+  word-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .container, .container-fluid {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  h1 { font-size: 2rem !important; }
+  h2 { font-size: 1.6rem !important; }
+  h3 { font-size: 1.3rem !important; }
+  .section-pad { padding: 50px 0 !important; }
+  .page-hero { padding: 100px 0 50px !important; }
+  .row { margin-left: 0 !important; margin-right: 0 !important; }
+  .navbar-brand { font-size: 1.1rem !important; }
+}

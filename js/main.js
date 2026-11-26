@@ -18,7 +18,7 @@ if (themeToggle) {
     updateThemeButton();
   });
 }
-const WHATSAPP_NUMBER = "2609759983355";
+const WHATSAPP_NUMBER = "260975998355";
 const slides = document.querySelectorAll(".hero-slide");
 const slideButtons = document.querySelectorAll("[data-slide]");
 let currentSlide = 0;
