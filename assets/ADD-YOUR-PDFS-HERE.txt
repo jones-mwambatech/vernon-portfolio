@@ -1,0 +1,1 @@
+Add your real PDF documents to this folder using these filenames, or update the links in about.html:\n- resume.pdf\n- certificate-1.pdf\n\nThe portfolio does not include invented certificates or a fabricated resume.\n
